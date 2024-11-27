@@ -106,7 +106,7 @@
         "/api/v2/chats": {
             "post": {
                 "tags": [
-                    "Chats"
+                    "chats"
                 ],
                 "summary": "Route Create Chats",
                 "operationId": "chats_post",
@@ -161,7 +161,7 @@
             },
             "get": {
                 "tags": [
-                    "Chats"
+                    "chats"
                 ],
                 "summary": "Route Get Chats",
                 "operationId": "chats_get",
@@ -235,7 +235,7 @@
         "/api/v2/chats/{chat_id}": {
             "patch": {
                 "tags": [
-                    "Chats"
+                    "chats"
                 ],
                 "summary": "Route Patch Chat",
                 "operationId": "chats__chat_id__patch",
@@ -288,7 +288,7 @@
         "/api/v2/comments/": {
             "get": {
                 "tags": [
-                    "Comments"
+                    "comments"
                 ],
                 "summary": "Find Comments",
                 "operationId": "comments__get",
@@ -350,7 +350,7 @@
             },
             "post": {
                 "tags": [
-                    "Comments"
+                    "comments"
                 ],
                 "summary": "Create Comment",
                 "operationId": "comments__post",
@@ -399,7 +399,7 @@
         "/api/v2/drafting/templates": {
             "get": {
                 "tags": [
-                    "Drafting"
+                    "drafting"
                 ],
                 "summary": "Route Get Templates",
                 "operationId": "drafting_templates_get",
@@ -424,7 +424,7 @@
         "/api/v2/drafting/answers": {
             "post": {
                 "tags": [
-                    "Drafting"
+                    "drafting"
                 ],
                 "summary": "Route Save Answers",
                 "description": "Creates a DraftOutput",
@@ -492,7 +492,7 @@
         "/api/v2/drafting/draft_outputs/{draft_output_id}/run": {
             "post": {
                 "tags": [
-                    "Drafting"
+                    "drafting"
                 ],
                 "summary": "Route Run Draft",
                 "operationId": "drafting_draft_outputs__draft_output_id__run_post",
@@ -546,7 +546,7 @@
         "/api/v2/drafting/draft_outputs/{draft_output_id}": {
             "patch": {
                 "tags": [
-                    "Drafting"
+                    "drafting"
                 ],
                 "summary": "Route Update Draft Output",
                 "operationId": "drafting_draft_outputs__draft_output_id__patch",
@@ -597,7 +597,7 @@
             },
             "get": {
                 "tags": [
-                    "Drafting"
+                    "drafting"
                 ],
                 "summary": "Route Get Draft Output",
                 "operationId": "drafting_draft_outputs__draft_output_id__get",
@@ -650,7 +650,7 @@
         "/api/v2/drafting/redraft": {
             "post": {
                 "tags": [
-                    "Redrafting"
+                    "redrafting"
                 ],
                 "summary": "Route Run Redraft",
                 "operationId": "drafting_redraft_post",
@@ -691,7 +691,7 @@
         "/api/v2/drafting/redraft/{redraft_id}": {
             "get": {
                 "tags": [
-                    "Redrafting"
+                    "redrafting"
                 ],
                 "summary": "Route Redraft Nps",
                 "operationId": "drafting_redraft__redraft_id__get",
@@ -734,7 +734,7 @@
         "/api/v2/data/term_keys/{report_type_id}": {
             "get": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Get Term Keys",
                 "operationId": "data_term_keys__report_type_id__get",
@@ -781,7 +781,7 @@
         "/api/v2/data/categories/{report_type_id}": {
             "get": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Get Categories",
                 "operationId": "data_categories__report_type_id__get",
@@ -828,7 +828,7 @@
         "/api/v2/data/tasks": {
             "get": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Get Task Defs",
                 "operationId": "data_tasks_get",
@@ -874,7 +874,7 @@
         "/api/v2/data/facts": {
             "get": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Get Fact Defs",
                 "operationId": "data_facts_get",
@@ -929,7 +929,7 @@
         "/api/v2/data/answer_types": {
             "get": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Get Answer Types",
                 "operationId": "data_answer_types_get",
@@ -975,7 +975,7 @@
         "/api/v2/data/specific_answer_types": {
             "get": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Get Specific Answer Types",
                 "operationId": "data_specific_answer_types_get",
@@ -1039,7 +1039,7 @@
         "/api/v2/data/doc_types_for_report_type": {
             "get": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Get Doc Types For Report Type",
                 "operationId": "data_doc_types_for_report_type_get",
@@ -1086,7 +1086,7 @@
         "/api/v2/data/sync_dev_data": {
             "post": {
                 "tags": [
-                    "Sync"
+                    "sync"
                 ],
                 "summary": "Route Sync Dev Data",
                 "operationId": "data_sync_dev_data_post",
@@ -1107,7 +1107,7 @@
         "/api/v2/data/check_version": {
             "get": {
                 "tags": [
-                    "Sync"
+                    "sync"
                 ],
                 "summary": "Route Get Data Version",
                 "operationId": "data_check_version_get",
@@ -1137,7 +1137,7 @@
         "/api/v2/data/reset_demo_user": {
             "post": {
                 "tags": [
-                    "Demo"
+                    "demo"
                 ],
                 "summary": "Route Reset Demo User",
                 "operationId": "data_reset_demo_user_post",
@@ -1158,7 +1158,7 @@
         "/api/v2/matters": {
             "post": {
                 "tags": [
-                    "Matters"
+                    "matters"
                 ],
                 "summary": "Route Create Matter",
                 "operationId": "matters_post",
@@ -1223,7 +1223,7 @@
             },
             "get": {
                 "tags": [
-                    "Matters"
+                    "matters"
                 ],
                 "summary": "Route Get Matters",
                 "operationId": "matters_get",
@@ -1300,7 +1300,7 @@
         "/api/v2/matters/{matter_id}": {
             "get": {
                 "tags": [
-                    "Matters"
+                    "matters"
                 ],
                 "summary": "Route Get Matter",
                 "operationId": "matters__matter_id__get",
@@ -1379,7 +1379,7 @@
             },
             "patch": {
                 "tags": [
-                    "Matters"
+                    "matters"
                 ],
                 "summary": "Route Update Matter",
                 "operationId": "matters__matter_id__patch",
@@ -1432,7 +1432,7 @@
         "/api/v2/matters/{matter_id}/run": {
             "post": {
                 "tags": [
-                    "Matters"
+                    "matters"
                 ],
                 "summary": "Route Run Matter",
                 "operationId": "matters__matter_id__run_post",
@@ -1485,7 +1485,7 @@
         "/api/v2/neg_points": {
             "post": {
                 "tags": [
-                    "Negotiation Points"
+                    "neg_points"
                 ],
                 "summary": "Route Create Neg Points",
                 "operationId": "neg_points_post",
@@ -1538,7 +1538,7 @@
         "/api/v2/neg_points/{neg_point_id}": {
             "delete": {
                 "tags": [
-                    "Negotiation Points"
+                    "neg_points"
                 ],
                 "summary": "Route Delete Neg Point",
                 "operationId": "neg_points__neg_point_id__delete",
@@ -1589,7 +1589,7 @@
         "/api/v2/neg_points/change_status/{neg_point_id}": {
             "post": {
                 "tags": [
-                    "Negotiation Points"
+                    "neg_points"
                 ],
                 "summary": "Route Change Neg Point Status",
                 "operationId": "neg_points_change_status__neg_point_id__post",
@@ -1649,7 +1649,7 @@
         "/api/v2/neg_points/tags": {
             "get": {
                 "tags": [
-                    "Negotiation Points"
+                    "neg_points"
                 ],
                 "summary": "Route Get Neg Tags",
                 "operationId": "neg_points_tags_get",
@@ -1694,7 +1694,7 @@
             },
             "post": {
                 "tags": [
-                    "Negotiation Points"
+                    "neg_points"
                 ],
                 "summary": "Route Create Neg Tag",
                 "operationId": "neg_points_tags_post",
@@ -1743,7 +1743,7 @@
         "/api/v2/neg_points/validate": {
             "post": {
                 "tags": [
-                    "Rules"
+                    "rules"
                 ],
                 "summary": "Route Validate Neg Points",
                 "operationId": "neg_points_validate_post",
@@ -1796,7 +1796,7 @@
         "/api/v2/neg_points/{report_type_id}": {
             "get": {
                 "tags": [
-                    "Negotiation Points"
+                    "neg_points"
                 ],
                 "summary": "Route Get Neg Points",
                 "operationId": "neg_points__report_type_id__get",
@@ -1886,7 +1886,7 @@
         "/api/v2/organization": {
             "get": {
                 "tags": [
-                    "Organization"
+                    "organization"
                 ],
                 "summary": "Route Get Organization",
                 "operationId": "organization_get",
@@ -1905,7 +1905,7 @@
             },
             "post": {
                 "tags": [
-                    "Organization"
+                    "organization"
                 ],
                 "summary": "Route Post Organization",
                 "operationId": "organization_post",
@@ -1946,7 +1946,7 @@
         "/api/v2/organization/{organization_id}": {
             "patch": {
                 "tags": [
-                    "Organization"
+                    "organization"
                 ],
                 "summary": "Route Patch Organization",
                 "operationId": "organization__organization_id__patch",
@@ -1999,7 +1999,7 @@
         "/api/v2/organization/{organization_id}/users": {
             "delete": {
                 "tags": [
-                    "Organization"
+                    "organization"
                 ],
                 "summary": "Route Delete Organization Users",
                 "operationId": "organization__organization_id__users_delete",
@@ -2055,7 +2055,7 @@
         "/api/v2/redlines/ready": {
             "get": {
                 "tags": [
-                    "Redlines"
+                    "redlines"
                 ],
                 "summary": "Route Get Ready Status",
                 "operationId": "redlines_ready_get",
@@ -2098,7 +2098,7 @@
         "/api/v2/redlines/diffs": {
             "get": {
                 "tags": [
-                    "Redlines"
+                    "redlines"
                 ],
                 "summary": "Route Get Diffs",
                 "operationId": "redlines_diffs_get",
@@ -2165,7 +2165,7 @@
         "/api/v2/redlines/diff_reports/{from_report_id}/{to_report_id}": {
             "post": {
                 "tags": [
-                    "Diffs"
+                    "diffs"
                 ],
                 "summary": "Route Post Diff Reports",
                 "operationId": "redlines_diff_reports__from_report_id___to_report_id__post",
@@ -2237,7 +2237,7 @@
         "/api/v2/redlines/diff_get_reports/{from_report_id}/{to_report_id}": {
             "get": {
                 "tags": [
-                    "Diffs"
+                    "diffs"
                 ],
                 "summary": "Route Get Make Diff Reports",
                 "operationId": "redlines_diff_get_reports__from_report_id___to_report_id__get",
@@ -2307,7 +2307,7 @@
         "/api/v2/redlines/diff_reports/{report_diff_id}": {
             "get": {
                 "tags": [
-                    "Diffs"
+                    "diffs"
                 ],
                 "summary": "Route Get Diff Report",
                 "operationId": "redlines_diff_reports__report_diff_id__get",
@@ -2350,7 +2350,7 @@
         "/api/v2/redlines/diff_documents": {
             "get": {
                 "tags": [
-                    "Redlines"
+                    "redlines"
                 ],
                 "summary": "Route Generate Doc Doc Redlines",
                 "operationId": "redlines_diff_documents_get",
@@ -2413,7 +2413,7 @@
         "/api/v2/access/check_user_access": {
             "get": {
                 "tags": [
-                    "Report Access"
+                    "report_access"
                 ],
                 "summary": "Route User Can Access Report",
                 "operationId": "access_check_user_access_get",
@@ -2466,7 +2466,7 @@
         "/api/v2/access/users_in_user_org": {
             "get": {
                 "tags": [
-                    "Report Access"
+                    "report_access"
                 ],
                 "summary": "Route Get Users In User Org",
                 "operationId": "access_users_in_user_org_get",
@@ -2517,7 +2517,7 @@
         "/api/v2/access/users_with_report_access": {
             "get": {
                 "tags": [
-                    "Report Access"
+                    "report_access"
                 ],
                 "summary": "Route Users With Report Access",
                 "operationId": "access_users_with_report_access_get",
@@ -2578,7 +2578,7 @@
         "/api/v2/access/add_user_to_report": {
             "post": {
                 "tags": [
-                    "Report Access"
+                    "report_access"
                 ],
                 "summary": "Route Add User To Report",
                 "operationId": "access_add_user_to_report_post",
@@ -2647,7 +2647,7 @@
         "/api/v2/access/set_link_sharing": {
             "post": {
                 "tags": [
-                    "Report Access"
+                    "report_access"
                 ],
                 "summary": "Route Set Link Sharing",
                 "operationId": "access_set_link_sharing_post",
@@ -2724,7 +2724,7 @@
         "/api/v2/access/remove_user_from_report": {
             "post": {
                 "tags": [
-                    "Report Access"
+                    "report_access"
                 ],
                 "summary": "Route Remove User From Report",
                 "operationId": "access_remove_user_from_report_post",
@@ -2795,7 +2795,7 @@
         "/api/v2/access/edit_user_access": {
             "post": {
                 "tags": [
-                    "Report Access"
+                    "report_access"
                 ],
                 "summary": "Route Edit User Access",
                 "operationId": "access_edit_user_access_post",
@@ -2874,7 +2874,7 @@
         "/api/v2/reports/dashboard/{user_id}": {
             "get": {
                 "tags": [
-                    "Dashboard"
+                    "dashboard"
                 ],
                 "summary": "Route Get Dashboard",
                 "description": "given a user id, get all reports for the user and return the light report objects without terms, especially keep:\nparties, created date, document date",
@@ -2922,7 +2922,7 @@
         "/api/v2/reports/dashboard/csv": {
             "post": {
                 "tags": [
-                    "Dashboard"
+                    "dashboard"
                 ],
                 "summary": "Route Export Csv",
                 "operationId": "reports_dashboard_csv_post",
@@ -2966,7 +2966,7 @@
         "/api/v2/reports/types": {
             "get": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Get Report Types",
                 "operationId": "reports_types_get",
@@ -2991,7 +2991,7 @@
         "/api/v2/reports/parties/{report_type_id}": {
             "get": {
                 "tags": [
-                    "Parties"
+                    "parties"
                 ],
                 "summary": "Get Parties For Report Type",
                 "operationId": "reports_parties__report_type_id__get",
@@ -3038,7 +3038,7 @@
         "/api/v2/reports/data/{report_id}": {
             "get": {
                 "tags": [
-                    "Data"
+                    "data"
                 ],
                 "summary": "Get Llm Data",
                 "operationId": "reports_data__report_id__get",
@@ -3082,7 +3082,7 @@
         "/api/v2/reports/lite_term_data/{dsrr_id}": {
             "get": {
                 "tags": [
-                    "Data"
+                    "data"
                 ],
                 "summary": "Get Lite Term Data",
                 "operationId": "reports_lite_term_data__dsrr_id__get",
@@ -3129,7 +3129,7 @@
         "/api/v2/reports/{report_id}": {
             "patch": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Update Report",
                 "operationId": "reports__report_id__patch",
@@ -3180,7 +3180,7 @@
             },
             "get": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Get Report V2",
                 "operationId": "reports__report_id__get",
@@ -3223,7 +3223,7 @@
         "/api/v2/reports/{report_id}/report_objects": {
             "get": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Get Report Objects",
                 "operationId": "reports__report_id__report_objects_get",
@@ -3297,7 +3297,7 @@
         "/api/v2/reports/{report_id}/report_objects_full": {
             "get": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Get Full Report Objects",
                 "operationId": "reports__report_id__report_objects_full_get",
@@ -3357,7 +3357,7 @@
         "/api/v2/reports": {
             "get": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Find Reports",
                 "operationId": "reports_get",
@@ -3584,7 +3584,7 @@
             },
             "post": {
                 "tags": [
-                    "Reports"
+                    "reports"
                 ],
                 "summary": "Route Create Report",
                 "operationId": "reports_post",
@@ -3644,7 +3644,7 @@
         "/api/v2/reports/{report_id}/logs": {
             "get": {
                 "tags": [
-                    "Logging"
+                    "logging"
                 ],
                 "summary": "Get Debug Logs",
                 "operationId": "reports__report_id__logs_get",
@@ -3690,7 +3690,7 @@
         "/api/v2/reports/{report_id}/tfa_celery_start": {
             "post": {
                 "tags": [
-                    "Workflows"
+                    "workflows"
                 ],
                 "summary": "Route Tfa Celery Start Report",
                 "operationId": "reports__report_id__tfa_celery_start_post",
@@ -3811,7 +3811,7 @@
         "/api/v2/reports/{report_id}/tfa_start": {
             "post": {
                 "tags": [
-                    "Workflows"
+                    "workflows"
                 ],
                 "summary": "Route Tfa Celery Start Report",
                 "operationId": "reports__report_id__tfa_start_post",
@@ -3932,7 +3932,7 @@
         "/api/v2/reports/{report_id}/copy_labled_data": {
             "post": {
                 "tags": [
-                    "Scripts"
+                    "scripts"
                 ],
                 "summary": "Route Copy Labeled Data",
                 "operationId": "reports__report_id__copy_labled_data_post",
@@ -3975,7 +3975,7 @@
         "/api/v2/signatures": {
             "post": {
                 "tags": [
-                    "Signatures"
+                    "signatures"
                 ],
                 "summary": "Route Create Signing Packet",
                 "operationId": "signatures_post",
@@ -4016,7 +4016,7 @@
         "/api/v2/signatures/signing_packets": {
             "get": {
                 "tags": [
-                    "Signatures"
+                    "signatures"
                 ],
                 "summary": "Route Get Signing Packets",
                 "operationId": "signatures_signing_packets_get",
@@ -4063,7 +4063,7 @@
         "/api/v2/signatures/{signing_packet_id}": {
             "get": {
                 "tags": [
-                    "Signatures"
+                    "signatures"
                 ],
                 "summary": "Route Get Updated Signing Packet",
                 "operationId": "signatures__signing_packet_id__get",
@@ -4106,7 +4106,7 @@
         "/api/v2/rules": {
             "post": {
                 "tags": [
-                    "Rules"
+                    "rules"
                 ],
                 "summary": "Route Create Rules",
                 "operationId": "rules_post",
@@ -4159,7 +4159,7 @@
         "/api/v2/rules/{rule_id}": {
             "delete": {
                 "tags": [
-                    "Rules"
+                    "rules"
                 ],
                 "summary": "Route Delete Rule",
                 "operationId": "rules__rule_id__delete",
@@ -4210,7 +4210,7 @@
         "/api/v2/rules/change_status/{rule_id}": {
             "post": {
                 "tags": [
-                    "Rules"
+                    "rules"
                 ],
                 "summary": "Route Change Rule Status",
                 "operationId": "rules_change_status__rule_id__post",
@@ -4270,7 +4270,7 @@
         "/api/v2/rules/validate": {
             "post": {
                 "tags": [
-                    "Rules"
+                    "rules"
                 ],
                 "summary": "Route Validate Rules",
                 "operationId": "rules_validate_post",
@@ -4323,7 +4323,7 @@
         "/api/v2/rules/evaluate": {
             "post": {
                 "tags": [
-                    "Rules"
+                    "rules"
                 ],
                 "summary": "Route Evaluate Rules",
                 "operationId": "rules_evaluate_post",
@@ -4385,7 +4385,7 @@
         "/api/v2/rules/term_keys": {
             "post": {
                 "tags": [
-                    "Term Keys"
+                    "term_keys"
                 ],
                 "summary": "Route Create Term Detail Key",
                 "operationId": "rules_term_keys_post",
@@ -4432,7 +4432,7 @@
             },
             "get": {
                 "tags": [
-                    "Term Keys"
+                    "term_keys"
                 ],
                 "summary": "Route Get Rules",
                 "operationId": "rules_term_keys_get",
@@ -4498,7 +4498,7 @@
         "/api/v2/rules/term_keys/{term_key_id}": {
             "delete": {
                 "tags": [
-                    "Term Keys"
+                    "term_keys"
                 ],
                 "summary": "Route Delete Term Key",
                 "operationId": "rules_term_keys__term_key_id__delete",
@@ -4549,7 +4549,7 @@
         "/api/v2/templates": {
             "post": {
                 "tags": [
-                    "Templates"
+                    "templates"
                 ],
                 "summary": "Route Create Template",
                 "operationId": "templates_post",
@@ -4588,7 +4588,7 @@
             },
             "get": {
                 "tags": [
-                    "Templates"
+                    "templates"
                 ],
                 "summary": "Route Get Templates",
                 "operationId": "templates_get",
@@ -4631,7 +4631,7 @@
         "/api/v2/templates/{template_id}": {
             "get": {
                 "tags": [
-                    "Templates"
+                    "templates"
                 ],
                 "summary": "Route Get Template",
                 "operationId": "templates__template_id__get",
@@ -4672,7 +4672,7 @@
             },
             "delete": {
                 "tags": [
-                    "Templates"
+                    "templates"
                 ],
                 "summary": "Route Delete Template",
                 "operationId": "templates__template_id__delete",
@@ -4713,7 +4713,7 @@
             },
             "patch": {
                 "tags": [
-                    "Templates"
+                    "templates"
                 ],
                 "summary": "Route Update Template",
                 "operationId": "templates__template_id__patch",
@@ -4766,7 +4766,7 @@
         "/api/v2/term_edit/facts": {
             "get": {
                 "tags": [
-                    "Term Edit"
+                    "term_edit"
                 ],
                 "summary": "Route Get Task Facts",
                 "operationId": "term_edit_facts_get",
@@ -4813,7 +4813,7 @@
         "/api/v2/term_edit/term_options": {
             "get": {
                 "tags": [
-                    "Term Edit"
+                    "term_edit"
                 ],
                 "summary": "Route Get Term Options",
                 "operationId": "term_edit_term_options_get",
@@ -4869,7 +4869,7 @@
         "/api/v2/term_edit/edit_term": {
             "post": {
                 "tags": [
-                    "Term Edit"
+                    "term_edit"
                 ],
                 "summary": "Route Edit Term",
                 "operationId": "term_edit_edit_term_post",
@@ -4914,7 +4914,7 @@
         "/api/v2/user/settings": {
             "get": {
                 "tags": [
-                    "User Settings"
+                    "user_settings"
                 ],
                 "summary": "Route Get User Settings",
                 "operationId": "user_settings_get",
@@ -4937,7 +4937,7 @@
             },
             "post": {
                 "tags": [
-                    "User Settings"
+                    "user_settings"
                 ],
                 "summary": "Route Add Modify User Setting",
                 "operationId": "user_settings_post",
@@ -4982,7 +4982,7 @@
         "/api/v2/user/custom_defs": {
             "get": {
                 "tags": [
-                    "User Settings"
+                    "user_settings"
                 ],
                 "summary": "Route Get Custom Defs",
                 "operationId": "user_custom_defs_get",
@@ -5051,7 +5051,7 @@
             },
             "post": {
                 "tags": [
-                    "User Settings"
+                    "user_settings"
                 ],
                 "summary": "Route Add Custom Defs",
                 "operationId": "user_custom_defs_post",
@@ -5098,7 +5098,7 @@
             },
             "patch": {
                 "tags": [
-                    "User Settings"
+                    "user_settings"
                 ],
                 "summary": "Route Patch Custom Defs",
                 "operationId": "user_custom_defs_patch",
@@ -5145,7 +5145,7 @@
             },
             "delete": {
                 "tags": [
-                    "User Settings"
+                    "user_settings"
                 ],
                 "summary": "Route Delete Custom Defs",
                 "operationId": "user_custom_defs_delete",
@@ -5191,7 +5191,7 @@
         "/health": {
             "get": {
                 "tags": [
-                    "Health"
+                    "health"
                 ],
                 "summary": "Read Health",
                 "operationId": "health_get",
