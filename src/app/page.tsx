@@ -10,6 +10,8 @@ export default function Home() {
       options={{
         nativeScrollbars: true,
         hideDownloadButton: true,
+        hideLoading: true,
+        hideHostname: true,
         theme: {
           colors: {
             primary: {
